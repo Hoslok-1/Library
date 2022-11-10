@@ -9,9 +9,15 @@
   <script src = "script.js" defer></script>
 </head>
 <body>
-  <label>Enter the name of the book:</label>
-  <input type = "text" id = "bookName"><br>
-  <button type = "button" id = "submitBtn">Submit</button>
-  <button type = "button" id = "resetBtn">Reset Library</button>
+  <div class = "container">
+    <label>Enter the name of the book:</label>
+    <input type = "text" id = "bookName"><br>
+    <button type = "button" id = "submitBtn">Submit</button>
+    <button type = "button" id = "resetBtn">Reset Library</button><br><br>
+    <label>Books present in your library are:</label>
+    <div class = "booksPresent">
+      <p id = "booksInLibrary">Books present</p>
+    </div>
+  </div>
 </body> 
 </html>
